@@ -93,7 +93,7 @@ footer {
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/fundoteste.jpg);
+  --bg-url: url(./assets/darkmode.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -104,7 +104,7 @@ footer {
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/testelightmode.jpg);
+  --bg-url: url(./assets/lightmode.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -145,12 +145,4 @@ footer {
   border: 1px solid var(--stroke-color);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
-}
-
-footer {
-  font-family: monospace;
-  border-right: 4px solid;
-  width: 24;
-  white-space: nowrap;
-  overflow: hidden;
 }
